@@ -1,0 +1,148 @@
+/***** BASE STYLES *****/
+body{
+    background: #fff;
+    font-family: 'Montserrat', sans-serif;
+    color:#000;
+}
+
+.full-width{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.half-width{
+    width: 50%;
+    float: left;
+}
+
+.third-width{
+    width: 30%;
+    float: left;
+}
+
+/***** HEADER *****/
+header{
+    height:110px;
+    margin: 0 20px;
+    padding: 50px;
+    border-bottom: 3px solid #77a466;
+    width: 100%;
+}
+
+header h1{
+    color: #000;
+    font-size:40px;
+    font-weight: bold;
+    line-height: 32px;
+    text-transform: uppercase;
+    padding: 65px 0 65px 25px;
+}
+
+header h1 span{
+    color:#77a466; 
+}
+
+nav{
+    float:right;
+    padding: 75px 25px;
+}
+
+nav ul li{
+    display:inline-block;
+}
+
+nav ul li a{
+    color:#77a466;
+    font-size:18px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 80px 5px 80px 0;
+    /*border: 1px solid #000;*/
+}
+
+/***** TOP SECTION *****/
+
+#top .full-width{
+    margin: 0 20px;
+}
+/***** GALLERY *****/ 
+
+#gallery #gallery-image{
+    width: 100%;
+    border-bottom: 3px solid #77a466
+}
+
+/***** ABOUT *****/
+
+#about h2{
+    color:#77a466;
+    font-size:18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#about p{
+    color:#000;
+    font-size: 16px;
+    line-height: 23px;
+    text-align: justify;
+    padding: 10px;
+}
+
+/***** BOTTOM SECTION *****/
+
+#bottom .full-width{
+    border-top: 1px solid #dedbdc;
+    margin: 0 20px;
+}
+
+#bottom .third-width{
+    margin: 0 20px;
+    padding: 30px 0;
+}
+
+#bottom h3{
+    color: #000;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+/***** MENU *****/
+
+ul li{
+    color: #77a466;
+    font-size: 16px;
+    list-style-type: none;
+    line-height: 28px;
+    padding: 0;
+    margin: 0;
+}
+
+#menu, #reviews{
+    border-right: 1px solid #dedbdc;
+}
+
+/***** FOOTER *****/
+footer{
+    clear: both;
+    text-align:center;
+    border-top: 1px solid #dedbdc;
+    margin:0 20px;
+    padding: 30px 0;
+}
+
+footer h2{
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+footer h2 span{
+    color: #77a466;
+    font-family: 'Dancing Script', serif;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: lighter;
+    text-transform: lowercase;
+}
+/* Look for solution to remove indent. text-indent, margin and padding wont work.
